@@ -101,7 +101,6 @@ if __name__ == "__main__":
     
     # 내부망일 경우 해당 웹 서버 URL로 변경
     # 외부망 테스트시 실제 웹사이트 URL
-<<<<<<< HEAD
     TEST_URL = "https://www.naver.com"  # 테스트용 URL (필요시 변경)
     
     # 찾을 태그 (필요시 변경)
@@ -112,13 +111,3 @@ if __name__ == "__main__":
 
 
     print(f"\n총 {len(results)}개의 {TAG_NAME} 태그 정보를 수집했습니다.")
-=======
-    TEST_URL = "http://example.com"  # 테스트용 URL (필요시 변경)
-    
-    # 찾을 태그 (필요시 변경)
-    TAG_NAME = "b"  # 예: 링크 태그
-    
-    # 실행
-    results = test_tag_crawler(TEST_URL, TAG_NAME, DRIVER_PATH)
-    print(f"\n총 {len(results)}개의 {TAG_NAME} 태그 정보를 수집했습니다.")
->>>>>>> e74822ae5a56af07411f6d5f17bdd9c008ba34e3
